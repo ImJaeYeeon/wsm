@@ -5,14 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>헬로,월드</title>
+    <style>
+        /*우선순위: 포괄<구체*/
+        /*우선순위:class<id<<<!important*/
+        /*우선순위:같은 급일 때, 위<아래 코드*/
+        *{
+            color: gray;
+        }
+        #leader{
+            color: mediumaquamarine;
+        }
+        li{
+            color: hotpink;
+        }
+        .Korea{
+            color: darkblue !important;
+        }
+        .China{
+            color: crimson;
+        }
+        
+    </style>
 </head>
 <body>
     <ul>
-        <li class="Canada" id="Leader">마크</li>
+        <li class="Canada" id="leader">마크</li>
         <li class="China">런쥔</li>
         <li class="Korea">제노</li>
         <li class="Korea">해찬</li>
-        <li class="Korea" style="color: yellow;">재민</li>
+        <li class="Korea" style="color: gold;">재민</li>
         <li class="China">천러</li>
         <li class="Korea">지성</li>
     </ul>
