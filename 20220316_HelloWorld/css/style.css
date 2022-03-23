@@ -1,0 +1,18 @@
+    /*우선순위: 포괄<구체*/
+    /*우선순위:class<id<<<!important*/
+    /*우선순위:같은 급일 때, 위<아래 코드*/
+    body{
+        color: gray;
+    }
+    #leader{
+        color: mediumaquamarine;
+    }
+    li{
+        color: hotpink;
+    }
+    .Korea{
+        color: darkblue !important;
+    }
+    .China{
+        color: crimson;
+    }
