@@ -60,6 +60,7 @@ ul {
 
 a {
     text-decoration: none;
+    color: var(--title-color);
 }
 
 img {
@@ -75,6 +76,37 @@ img {
     margin-left: 1rem;
     margin-right: 1rem;
 }
+
+header {
+    background-color: var(--first-color);
+}
+
+nav {
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: #fff;
+}
+
+.nav-toggle i {
+    color: #fff;
+}
+
+.nav-toggle {
+    display: none;
+    /* visibility: hidden; 보이지는 않지만, 자리는 차지함 */
+}
+
+.nav-list {
+    display: flex;
+    column-gap: 0.75rem;
+}
+
+
 
 
 /* breakpoints */
