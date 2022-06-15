@@ -154,6 +154,7 @@ nav a {
         height: 0;
         /*overflowe: hidden과 함께 메뉴 안 보이게 하자*/
         overflow: hidden;
+        transition: 0.3s;
     }
 
     .nav-item {
