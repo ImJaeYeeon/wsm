@@ -4,14 +4,12 @@ const toggleMenu = (toggleID, navListID) => {
     const toggle = document.getElementById(toggleID);
     const navlist = document.getElementById(navListID);
 
-    const clickHandler = () => {
-        //show/hide menu: .show-menu
-        navlist.classList.toggle('show-menu');
-    }
-
     if (toggle && navlist) {
         //toggle click
-        toggle.addEventListener('click', clickHandler);
+        toggle.addEventListener('click', () => {
+            //show/hide menu: .show-menu
+            navlist.classList.toggle('show-menu');
+        });
     }
 }
 toggleMenu("nav-toggle", "nav-list");
