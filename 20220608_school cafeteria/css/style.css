@@ -144,10 +144,12 @@ main {
     /*너무 넓지 않게 max값 정하자*/
 }
 
+.now,
 .card:hover {
     box-shadow: 0 4px 8px rgb(0, 0, 0, 0.1);
 }
 
+.now .card-time,
 .card:hover .card-time {
     color: var(--third-color);
 }
